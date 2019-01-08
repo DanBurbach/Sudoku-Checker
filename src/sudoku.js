@@ -30,7 +30,16 @@ class Sudoku {
   }
 
   verifySection(section) {
-    return section.length == 9;
+    if(section.length === 9) {
+      section.sort((a,b) => a - b);
+      let isValid = true;
+      for (let i = 0; i < section.length; i++) {
+        if (section[i] != i + 1) {
+          isValid = false; }
+      }
+      return isValid;
+    }
+    return false;
   }
 }
 
