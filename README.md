@@ -2,7 +2,7 @@
 
 #### Changes Arabic numbers into Roman numerals
 
-#### By Phil Mass & Scott Bergler
+#### By Phil Mass & Daniel Burbach
 
 ## Description
 
